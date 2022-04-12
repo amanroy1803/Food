@@ -1,0 +1,155 @@
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+background-color: black;
+color: white;
+    
+}
+div.left{
+    padding: 5px;
+}
+.left img{
+    height: 60px;
+    width: 60px;
+    padding-left: 11px;
+}
+.navbar{
+    width: 500px;
+    margin: auto;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navbar ul li{
+    margin: auto;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #91f1b7;
+}
+.navbar a:hover{
+    border: 3px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.right{
+   padding-top: 29px;
+   margin-right: 10px;
+}
+.right .search input{
+    border-radius: 15px;  
+    height: 25px;
+    padding: 3px;
+}
+#home{
+    background: url(../workshop/img/pizza-3010062_1920.jpg);
+    height: 800px;
+    width: 100%;  
+}
+#home h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#home .form{
+    margin: auto;
+    border: 3px solid #2b6b5b;
+    border-radius: 15px;
+    text-align: center;
+    height: 350px;
+    width: 500px;
+    opacity: 1.7;
+    z-index: 20;
+}
+.form h3{
+    margin: 15px 0px;
+}
+.form div{
+    margin: 25px 0px;
+}
+input.btn{
+margin: 15px;
+padding: 5px;
+border: 3px solid black;
+border-radius: 16px;
+}
+div input:hover{
+    cursor:pointer;
+    background-color: cornsilk;
+    zoom: 1.02;
+}
+#home div p{
+    text-align: center;
+    padding-top: 25px;
+    margin: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 3px 3px 5px #22f958;
+    
+}
+section #veg{
+background-color: rgb(253, 184, 213);
+}
+#veg .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+div.box{
+    height: 400px;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: #f0fdce42;
+    padding: 15px;
+    box-shadow: 3px 3px 5px black;
+}
+
+div .box img{
+    height: 200px;
+    width: 225px;
+    padding-left: 145px;
+}
+div .box h3{
+    text-align: center;
+}
+div .box p{
+    text-align: center;
+    padding-top: 30px;
+}
+div .box .btn2{
+    margin: 20px 195px;
+    padding: 7px 24px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+div .box .btn2:hover{
+cursor: pointer;
+background-color: blue;
+color:lawngreen;
+zoom: 1.01;
+}
+#nonveg .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#snacks .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
